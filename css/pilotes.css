@@ -1,4 +1,4 @@
-.textBox{
+.textBox {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -11,24 +11,24 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
-.text{
+.text {
     color: white;
 }
 
-.flexBox{
+.flexBox {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.bigTitle{
+.bigTitle {
     font-family: "Audiowide", serif;
     font-size: 45px;
     text-align: center;
     font-style: oblique;
 }
 
-.title{
+.title {
     flex: 100%;
     font-family: "Audiowide", serif;
     font-size: 30px;
@@ -37,36 +37,37 @@
     padding-bottom: 10px;
 }
 
-.textFlex{
+.textFlex {
     flex: 45%;
     text-align: justify;
     align-content: center;
 }
 
-.photoFlex{
+.photoFlex {
     flex: 55%;
     text-align: center;
     align-content: center;
-    
+
 }
-.photo{
+
+.photo {
     width: 500px;
     height: auto;
 }
 
 
 @media screen and (max-width:1032px) {
-.photoFlex{
-    margin-top: 10px;
-    flex:100%;
-}
+    .photoFlex {
+        margin-top: 10px;
+        flex: 100%;
+    }
 
-.textFlex{
-    flex:100%;
+    .textFlex {
+        flex: 100%;
+    }
+
+    .photo {
+        width: 90%;
+        height: auto;
+    }
 }
-    
-   .photo{
-    width: 90%;
-    height: auto;
-   }
- }

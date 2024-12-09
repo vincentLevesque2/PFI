@@ -1,45 +1,45 @@
-.text{
+.text {
     color: white;
 }
 
-.display{
+.display {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.textBox{
+.textBox {
     flex: 50%;
     padding: 5px;
     border: 3px solid red;
     border-radius: 15px;
     font-size: 15px;
     font-family: "Nunito Sans", sans-serif;
-   
+
 }
 
-.title{
+.title {
     font-family: "Audiowide", serif;
     font-style: oblique;
     font-size: 25px;
     text-align: center;
 }
 
-ol{
+ol {
     padding-left: 25px;
     padding-top: 10px;
     font-size: 18px;
 }
 
-li{
+li {
     padding-top: 10px;
 }
 
-.videoBox{
-    flex:45%; 
+.videoBox {
+    flex: 45%;
 }
 
-.audioBox{
+.audioBox {
     flex: 45%;
     padding: 5px;
     border: 3px solid red;
@@ -47,7 +47,7 @@ li{
     text-align: center;
 }
 
-.audioName{
+.audioName {
     margin-top: 20px;
     font-family: "Audiowide", serif;
     font-style: oblique;
@@ -57,51 +57,50 @@ li{
 
 
 
-.audio{
+.audio {
     margin-top: 5px;
-    
+
 }
 
-.photoBox{
+.photoBox {
     flex: 50%;
     text-align: center;
     align-content: center;
-    
+
 }
 
-.photo{
+.photo {
 
-    width: 100% ;
+    width: 100%;
     height: auto;
 }
 
 
-.paragraphe{
+.paragraphe {
     margin: 10px;
 }
 
 
 @media screen and (max-width: 920px) {
-   
-    .textBox{
+
+    .textBox {
         flex: 100%;
         order: 2;
-   }
+    }
 
-    .videoBox{
+    .videoBox {
         flex: 100%;
         order: 1;
     }
 
-    .audioBox{
+    .audioBox {
         flex: 100%;
         order: 3;
     }
 
-    .photoBox{
+    .photoBox {
         flex: 100%;
         order: 4;
     }
-       
-}
 
+}

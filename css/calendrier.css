@@ -16,7 +16,7 @@
 .calendar {
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(gray,white, white, gray);
+    background-image: linear-gradient(gray, white, white, gray);
 }
 
 .months {

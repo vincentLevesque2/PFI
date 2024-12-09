@@ -1,28 +1,28 @@
-.text{
+.text {
     color: white;
 }
 
-.bigTitle{
+.bigTitle {
     font-family: "Audiowide", serif;
     font-size: 45px;
     text-align: center;
     font-style: oblique;
 }
 
-.flexBox{
+.flexBox {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.title{
+.title {
     font-family: "Audiowide", serif;
     font-size: 30px;
     text-align: center;
     font-style: oblique;
 }
 
-.textBox{
+.textBox {
     flex: 45%;
     border: 3px solid red;
     font-family: "Nunito Sans", sans-serif;
@@ -31,31 +31,31 @@
     border-radius: 15px;
     padding: 5px;
     margin: 5px;
-   
+
 }
 
-.bottom{
+.bottom {
     flex: 100%;
 }
 
-.logoBox{
+.logoBox {
     flex: 45%;
     text-align: center;
     align-content: center;
- 
+
 }
 
-.logo{
+.logo {
     width: 300px;
     height: auto;
 }
 
-.hyperlien{
+.hyperlien {
     color: red;
 }
 
 
-.aboutBox{
+.aboutBox {
     margin-top: 100px;
 }
 
@@ -66,7 +66,7 @@
 
 
 @media screen and (max-width:836px) {
-   .textBox{
-    flex: 100%;
-   }
+    .textBox {
+        flex: 100%;
+    }
 }

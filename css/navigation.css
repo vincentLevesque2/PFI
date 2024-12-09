@@ -11,7 +11,7 @@
 }
 
 .icon {
-    font-size:28px !important;
+    font-size: 28px !important;
     cursor: pointer;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -19,7 +19,7 @@
 }
 
 .siteIcon {
-    background-image: URL('../images/F1-logo.png');
+    background-image: URL('../images/logo/F1-logo.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@
     height: 40px;
     margin-left: 8px;
 }
+
 .menuText {
     font-size: 1em;
     cursor: pointer;
