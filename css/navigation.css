@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    padding: 4px;
+}
+
+.icon {
+    font-size:28px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+}
+
+.siteIcon {
+    background-image: URL('../images/F1-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 40px;
+    margin-left: 8px;
+}
+.menuText {
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 35px auto;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu:hover,
+.menu:hover .icon {
+    color: aqua;
+    -webkit-text-fill-color: lightgray;
+}
+
+.menu:active,
+.menu:active .icon {
+    color: dodgerblue;
+    -webkit-text-fill-color: gray;
+}
+
+.selected,
+.selected .icon {
+    color: green;
+    -webkit-text-fill-color: red;
+}
+
+.menuBuffer {
+    height: 50px;
+}
+
+@media screen and (min-width:850px) {
+    .menuText {
+        display: block;
+    }
+}
